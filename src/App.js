@@ -1,11 +1,16 @@
+import { BrowserRouter, Route, Routes } from "react-router-dom";
 import "./App.css";
 import Navbar from "./Components/Navbar/Navbar";
+import FirstPage from "./Pages/FirstPage/FirstPage";
 
 function App() {
   return (
-    <div className="App">
+    <BrowserRouter>
       <Navbar />
-    </div>
+      <Routes>
+        <Route exact path="/" element={<FirstPage />}></Route>
+      </Routes>
+    </BrowserRouter>
   );
 }
 

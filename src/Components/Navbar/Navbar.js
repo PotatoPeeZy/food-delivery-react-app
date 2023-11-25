@@ -6,6 +6,7 @@ function Navbar() {
       <img
         className="navbar-logo"
         src={process.env.PUBLIC_URL + "Navbar/Logo.png"}
+        alt="Logo"
       ></img>
       <ul className="navbar-links">
         <li>Home</li>

@@ -4,18 +4,20 @@
   background-color: white;
   display: flex;
   align-items: center;
-  padding: 40px;
-  justify-content: space-around;
+  justify-content: space-between;
 }
 .navbar-logo {
   width: 206px;
   height: 101.758px;
   flex-shrink: 0;
+  margin-left: 70px;
 }
 .navbar-links {
   display: flex;
   gap: 94px;
   list-style: none;
   font-family: var(--ff-primary);
+  font-size: 16px;
   font-weight: 600;
+  margin-right: 30px;
 }
