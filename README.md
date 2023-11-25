@@ -26,13 +26,13 @@ Bella Olonge is a React.js project developed for training purposes. The app focu
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/your-username/bella-olonge-food-delivery.git
+   git clone https://github.com/PotatoPeeZy/food-delivery-react-app
    ```
 
 2. Navigate to the project directory:
 
    ```bash
-   cd bella-olonge-food-delivery
+   cd food-delivery
    ```
 
 3. Install dependencies:
